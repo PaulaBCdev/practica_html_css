@@ -1,0 +1,9 @@
+:root {
+    --bg-color: #FAF3E0;
+    --main-text-color: black;
+    --main-color: #3D1B7C;
+    --main-color-light: #5D3FD3;
+    --secondary-color: #E6B800;
+    font-size: 16px;
+    font-family: 'Akatab', sans-serif;
+}
