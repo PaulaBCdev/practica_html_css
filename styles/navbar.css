@@ -13,4 +13,12 @@
         max-width: 150px;
         min-width: 100px;
     }
+
+    .nav .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
 }
+
