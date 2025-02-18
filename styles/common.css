@@ -20,3 +20,8 @@ a {
     background-color: var(--bg-color);
     color: var(--main-text-color);
 }
+
+p {
+    margin: 0;
+    margin-bottom: 2rem;
+}

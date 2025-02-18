@@ -3,3 +3,11 @@
     margin: 0 auto;
     max-width: 768px;
 }
+
+.heading-1 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main-color);
+    margin: 0;
+    margin-bottom: 10px;
+}
