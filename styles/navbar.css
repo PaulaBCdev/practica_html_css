@@ -33,7 +33,7 @@
             width: 30px;
             height: 4px;
             background: var(--main-text-color);
-            transition: 0.3s;
+            border-radius: 2px;
         }
 
         /* Menu que se oculta por defecto en moviles */
