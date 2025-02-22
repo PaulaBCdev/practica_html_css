@@ -4,7 +4,7 @@
     padding: 0 1rem;
     max-width: 768px;
 
-    .soft-skills {
+    .mis-skills {
         .skill-list {
             list-style: none;
             margin: 0;
@@ -44,6 +44,18 @@
     
                 .nuevas-herramientas {
                     --width-final: 70%;
+                }
+
+                .javascript {
+                    --width-final: 40%;
+                }
+
+                .html-css {
+                    --width-final: 55%;
+                }
+
+                .python {
+                    --width-final: 60%;
                 }
 
                 .progress-bordes {

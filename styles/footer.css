@@ -1,6 +1,20 @@
 .footer {
-    text-align: center;
-    font-weight: 100;
-    padding: 2em 0;
-    background-color: var(--main-color-light);
+    padding: 1em;
+    background-color: var(--main-color);
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.footer .social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.footer .social-icons .social {
+    width: 10%;
+    height: auto;
+    margin: auto 3vw;
 }

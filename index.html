@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/info.css">
+    <link rel="stylesheet" href="./styles/banner.css">
 </head>
 <body class="main-bg">
     <h1 class="sr-only">Paula Barrionuevo - Portafolio</h1>
@@ -50,7 +51,7 @@
             <p>Siempre en busca de nuevos retos, quiero seguir creando proyectos que no solo funcionen, sino que también cuenten una historia.</p>
         </section>
 
-        <section class="soft-skills">
+        <section class="mis-skills">
             <h2 class="heading-2">Soft skills</h2>
             <ul class="skill-list">
                 <li>
@@ -76,10 +77,57 @@
                 </li>
             </ul>
         </section>
+
+        <section class="mis-skills">
+            <h2 class="heading-2">Tech skills</h2>
+            <ul class="skill-list">
+                <li>
+                    <p class="skill">JavaScript</p>
+                    <div class="progress-container">
+                        <div class="progress javascript"></div>
+                        <div class="progress-bordes"></div>
+                    </div>
+                </li>
+                <li>
+                    <p class="skill">HTML y CSS</p>
+                    <div class="progress-container">
+                        <div class="progress html-css"></div>
+                        <div class="progress-bordes"></div>
+                    </div>
+                </li>
+                <li>
+                    <p class="skill">Python</p>
+                    <div class="progress-container">
+                        <div class="progress python"></div>
+                        <div class="progress-bordes"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
 
+    <!-- BANNER -->
+    <section class="banner">
+        <picture>
+            <source srcset="./assets/banner-big.png" media="(width > 768px)">
+            <source srcset="./assets/banner-small.png">
+            <img class="banner-img" src="./assets/banner-big.png" alt="">
+        </picture>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
-        <p>Aqui van las <strong>redes sociales</strong></p>
+        <div class="social-icons">
+            <a class="social github" href="https://github.com/PaulaBCdev">
+                <img src="./assets/github-brands-solid.svg" alt="" >
+            </a>
+            <a class="social linkedin" href="https://www.linkedin.com/in/paula-barrionuevo-camacho/">
+                <img src="./assets/linkedin-brands.svg" alt="">
+            </a>
+            <a class="social mystery" href="https://youtu.be/KUVvlqg1g5s?si=DYpUktNL8fLdn6KH">
+                <img src="./assets/circle-question-regular.svg" alt="">
+            </a>
+        </div>
     </footer>
     
 </body>
