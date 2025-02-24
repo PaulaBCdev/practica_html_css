@@ -15,8 +15,12 @@ figure {
     }
 }
 
-@media screen and (width > 768px) {
+@media screen and (width > 768px) and (hover: hover) {
     .proyects-list {
         grid-template-columns: repeat(4, 1fr);
+
+        img {
+            cursor: pointer;
+        }
     }
 }
