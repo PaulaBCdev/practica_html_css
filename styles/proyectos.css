@@ -1,26 +1,43 @@
-figure {
-    margin: 0;
-}
+.mis-proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-.proyects-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-
-    img {
-        width: 100%;
+    .shrek {    
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+    }
+    
+    .proyect-section {
+        .proyects-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+    
+            figure {
+                margin: 0;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
-@media screen and (width > 768px) and (hover: hover) {
-    .proyects-list {
-        grid-template-columns: repeat(4, 1fr);
 
-        img {
-            cursor: pointer;
-        }
+@media (width > 768px) {
+    .mis-proyectos .proyect-section .proyects-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mis-proyectos .shrek iframe {
+        height: 400px;
+
     }
 }
