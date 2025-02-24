@@ -1,0 +1,22 @@
+figure {
+    margin: 0;
+}
+
+.proyects-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (width > 768px) {
+    .proyects-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

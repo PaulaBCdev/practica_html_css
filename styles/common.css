@@ -37,6 +37,13 @@ a {
     background-size: 20px 20px; /* Tamaño de las celdas */
 }
 
+.main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 768px;
+}
+
 p {
     margin: 0;
     margin-bottom: 1rem;
