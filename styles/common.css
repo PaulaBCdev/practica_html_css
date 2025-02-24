@@ -46,10 +46,20 @@ section {
     margin-top: 3rem;
 }
 
-.info .heading-2 {
+li {
+    text-align: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.heading-2 {
     font-size: 25px;
     font-weight: 800;
     color: var(--secondary-color);
     margin: 0;
     margin-bottom: 1rem;
+}
+
+figcaption {
+    color: var(--main-text-color);
 }

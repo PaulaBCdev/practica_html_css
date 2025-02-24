@@ -52,14 +52,14 @@
             pointer-events: none;
         }
 
-        .menu li {
+        /* .menu li {
             text-align: center;
             padding: 10px 0;
             list-style: none;
-        }
+        } */
 
-        .btn {
-            color: white;
+        .nav-btn {
+            color: var(--main-text-color);
             text-decoration: none;
             font-size: 18px;
         }
