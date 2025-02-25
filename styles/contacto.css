@@ -1,0 +1,88 @@
+.contact {
+    margin-top: 3rem;
+}
+
+.contact-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    label {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+
+    input, textarea {
+        border: none;
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: #ececec;
+        color: #C6BFBF;
+    }
+
+    &.row {
+        flex-direction: row;
+        gap: 10px;
+
+        label {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 2rem;
+
+    legend {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+
+    .fieldset-option {
+        flex-direction: row;
+    }
+}
+
+.contact-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+    .btn {
+        background-color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
+        border-radius: 3px;
+        padding: 0.5vh 2.5vw;
+        color: var(--main-text-color);
+        font-weight: 500;
+        transition: background-color 0.3s;
+
+        &.secondary {
+            background-color: transparent;
+            border: 3px solid var(--secondary-color);
+            transition: background-color 0.3s;
+        }
+    }
+}
+
+@media screen and (hover: hover) {
+    .btn {
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: var(--secondary-color-light);
+        border: 1px solid var(--secondary-color-light);
+    }
+
+    .btn.secondary:hover {
+        border: 3px solid var(--secondary-color-light);
+        background-color: rgba(188, 210, 233, 0.3);
+    }
+}

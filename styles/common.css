@@ -72,6 +72,10 @@ li {
     color: var(--secondary-color);
     margin: 0;
     margin-bottom: 1rem;
+    
+    &.h-contact {
+        margin-bottom: 1em;
+    }
 }
 
 figcaption {

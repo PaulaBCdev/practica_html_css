@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula Barrionuevo | Contacto</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+</head>
+<body class="main-bg">
+    <h1 class="sr-only">Paula Barrionuevo - Contacto</h1>
+
+        <!-- HEADER -->
+        <header class="header">
+            <img class="logo" src="./assets/logo.png" alt="">
+            <nav class="nav">
+                <input type="checkbox" id="menu-btn" name="menu-btn">
+                <label for="menu-btn" class="burguer-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+    
+                <ul class="menu">
+                    <li>
+                        <a class="nav-btn" href="./index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="nav-btn" href="./proyectos.html">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a class="nav-btn" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- FORMULARIO -->
+        <main class="main contact">
+            <h2 class="heading-2 h-contact">Contacto</h2>
+
+            <form action="./registro" method="post" novalidate>
+                <div class="contact-element">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name" autocomplete="off" placeholder="Introduce tu nombre">
+                </div>
+
+                <div class="contact-element">
+                    <label for="surname">Apellido</label>
+                    <input required type="text" name="surname" id="surname" autocomplete="off" placeholder="Introduce tu apellido">
+                </div>
+
+                <div class="contact-element">
+                    <label for="tel">Teléfono</label>
+                    <input required type="tel" name="telephone" id="tel" autocomplete="off" placeholder="Introduce tu número de teléfono">
+                </div>
+
+                <div class="contact-element">
+                    <label for="github-username">Github username</label>
+                    <input type="text" name="github-username" id="github-username" autocomplete="off" pattern="^@[^\s]+" placeholder="@username">
+                </div>
+
+                <fieldset>
+                    <legend>¿Cómo me conociste?</legend>
+
+                    <div class="fieldset-option">
+                        <label for="uni">Universidad</label>
+                        <input required type="radio" name="knowme" id="uni" value="uni">
+                    </div>
+
+                    <div class="fieldset-option">
+                        <label for="kickoff">Keepcoding kick-off</label>
+                        <input required type="radio" name="knowme" id="kickoff" value="kickoff">
+                    </div>
+
+                    <div class="fieldset-option">
+                        <label for="school">Colegio</label>
+                        <input required type="radio" name="knowme" id="school" value="school">
+                    </div>
+
+                    <div class="fieldset-option">
+                        <label for="github">Github</label>
+                        <input required type="radio" name="knowme" id="github" value="github" pla>
+                    </div>
+                </fieldset>
+
+                <div class="contact-element">
+                    <label for="more-info">Más información</label>
+                    <textarea required name="more-info" id="more-info" rows="6" placeholder="Qué más quieres saber" maxlength="180"></textarea>
+                </div>
+
+                <div class="contact-element row">
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Quiero acceso a la newsletter</label>
+                </div>
+
+                <div class="contact-btns">
+                    <button class="btn" type="submit">Enviar</button>
+                    <input class="btn secondary" type="reset" value="Reset">
+                </div>
+            </form>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="social-icons">
+                <a class="social github" href="https://github.com/PaulaBCdev">
+                    <img src="./assets/github-brands-solid.svg" alt="" >
+                </a>
+                <a class="social linkedin" href="https://www.linkedin.com/in/paula-barrionuevo-camacho/">
+                    <img src="./assets/linkedin-brands.svg" alt="">
+                </a>
+                <a class="social mystery" href="https://youtu.be/KUVvlqg1g5s?si=DYpUktNL8fLdn6KH">
+                    <img src="./assets/circle-question-regular.svg" alt="">
+                </a>
+            </div>
+        </footer>
+
+</body>
+</html>
