@@ -18,3 +18,14 @@
     height: auto;
     margin: auto 3vw;
 }
+
+@media screen and (width > 768px) {
+    .footer {
+        .social-icons {
+            .social {
+                width: 2%;
+                margin: auto 2vw;
+            }
+        }
+    }
+}

@@ -10,6 +10,7 @@
 
             p.skill {
                 margin: 0;
+                display: flex;
             }
 
             .progress-container {
@@ -76,6 +77,17 @@
         }
         100% {
             width: var(--width-final);
+        }
+    }
+}
+
+@media screen and (width > 768px) {
+    .main {
+        .mis-skills {
+            .skill-list {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 50px;
+            }
         }
     }
 }
