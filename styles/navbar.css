@@ -90,6 +90,9 @@
                 li {
                     list-style: none;
                     margin: 0 15px;
+                    transition: background-color 1s;
+                    padding: 10px;
+                    border-radius: 10px;
                 }
             }
         }
@@ -97,6 +100,8 @@
 }
 
 @media screen and (hover: hover) {
-    
+    .header .nav .menu li:hover {
+        background-color: var(--secondary-color);
+        
+    }
 }
-
