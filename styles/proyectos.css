@@ -6,7 +6,7 @@
     .shrek {    
         iframe {
             width: 100%;
-            height: 315px;
+            height: 200px;
             animation: fadein 1.5s linear;
         }
     }
@@ -31,6 +31,12 @@
     }
 }
 
+@media (width > 425px) {
+    .mis-proyectos .shrek iframe {
+        height: 400px;
+
+    }
+}
 
 @media (width > 768px) {
     .mis-proyectos .proyect-section .proyects-list {
@@ -38,7 +44,8 @@
     }
 
     .mis-proyectos .shrek iframe {
-        height: 400px;
+        height: 550px;
+        margin-bottom: 10px;
 
     }
 }

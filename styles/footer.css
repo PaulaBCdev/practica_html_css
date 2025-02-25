@@ -16,15 +16,28 @@
 .footer .social-icons .social {
     width: 10%;
     height: auto;
-    margin: auto 3vw;
+    margin: auto 6vw;
 }
 
+/* media query para pantalla tablet */
+@media screen and (width > 425px) {
+    .footer {
+        .social-icons {
+            .social {
+                width: 5%;
+                margin: auto 4vw;
+            }
+        }
+    }
+}
+
+/* media query para pantalla desktop */
 @media screen and (width > 768px) {
     .footer {
         .social-icons {
             .social {
                 width: 2%;
-                margin: auto 2vw;
+                margin: auto 2.5vw;
             }
         }
     }
