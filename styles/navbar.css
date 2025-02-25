@@ -24,7 +24,6 @@
         .burguer-btn {
             display: flex;
             flex-direction: column;
-            cursor: pointer;
             gap: 5px;
         }
         
@@ -52,12 +51,6 @@
             pointer-events: none;
         }
 
-        /* .menu li {
-            text-align: center;
-            padding: 10px 0;
-            list-style: none;
-        } */
-
         .nav-btn {
             color: var(--main-text-color);
             text-decoration: none;
@@ -73,4 +66,37 @@
     }
 }
 
+@media screen and (width > 768px) {
+    .header {
+        padding: 2rem 4rem;
+
+        .nav {
+            .burguer-btn{
+                display: none;
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                position: static;
+                background: none;
+                width: auto;
+                opacity: 1;
+                pointer-events: auto;
+                transform: none;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (hover: hover) {
+    
+}
 
