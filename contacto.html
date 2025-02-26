@@ -48,24 +48,26 @@
             <h2 class="heading-2 h-contact">Contacto</h2>
 
             <form action="./registro" method="post" novalidate>
-                <div class="contact-element">
-                    <label for="name">Nombre</label>
-                    <input required type="text" name="name" id="name" autocomplete="off" placeholder="Introduce tu nombre">
-                </div>
-
-                <div class="contact-element">
-                    <label for="surname">Apellido</label>
-                    <input required type="text" name="surname" id="surname" autocomplete="off" placeholder="Introduce tu apellido">
-                </div>
-
-                <div class="contact-element">
-                    <label for="tel">Teléfono</label>
-                    <input required type="tel" name="telephone" id="tel" autocomplete="off" placeholder="Introduce tu número de teléfono">
-                </div>
-
-                <div class="contact-element">
-                    <label for="github-username">Github username</label>
-                    <input type="text" name="github-username" id="github-username" autocomplete="off" pattern="^@[^\s]+" placeholder="@username">
+                <div class="grid top">
+                    <div class="contact-element">
+                        <label for="name">Nombre</label>
+                        <input required type="text" name="name" id="name" autocomplete="off" placeholder="Introduce tu nombre">
+                    </div>
+    
+                    <div class="contact-element">
+                        <label for="surname">Apellido</label>
+                        <input required type="text" name="surname" id="surname" autocomplete="off" placeholder="Introduce tu apellido">
+                    </div>
+    
+                    <div class="contact-element">
+                        <label for="tel">Teléfono</label>
+                        <input required type="tel" name="telephone" id="tel" autocomplete="off" placeholder="Introduce tu número de teléfono">
+                    </div>
+    
+                    <div class="contact-element">
+                        <label for="github-username">Github username</label>
+                        <input type="text" name="github-username" id="github-username" autocomplete="off" pattern="^@[^\s]+" placeholder="@username">
+                    </div>
                 </div>
 
                 <fieldset>
@@ -92,19 +94,21 @@
                     </div>
                 </fieldset>
 
-                <div class="contact-element">
+                <div class="contact-element standalone">
                     <label for="more-info">Más información</label>
                     <textarea required name="more-info" id="more-info" rows="6" placeholder="Qué más quieres saber" maxlength="180"></textarea>
                 </div>
 
-                <div class="contact-element row">
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                    <label for="newsletter">Quiero acceso a la newsletter</label>
-                </div>
-
-                <div class="contact-btns">
-                    <button class="btn" type="submit">Enviar</button>
-                    <input class="btn secondary" type="reset" value="Reset">
+                <div class="grid bottom">
+                    <div class="contact-element row">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">Quiero acceso a la newsletter</label>
+                    </div>
+    
+                    <div class="contact-btns">
+                        <button class="btn" type="submit">Enviar</button>
+                        <input class="btn secondary" type="reset" value="Reset">
+                    </div>
                 </div>
             </form>
 
