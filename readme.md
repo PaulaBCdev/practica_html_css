@@ -21,5 +21,7 @@ Una vez tuve el diseño, me puse a realizar el proyecto. Empecé a trabajar sobr
 
 Si bien la práctica como tal no me ha generado problemas, sí que he tenido que recurrir a internet en algunas ocasiones para algunos puntos específicos, como con el menú hamburguesa para la versión movil, la creación de una cuadrícula que simulase una hoja de libreta como fondo o la inserción de un vídeo de YouTube en la ppágina proyectos (por alguna razón el vídeo no se podía ver cuando insertaba el iframe).
 
+Con respecto a los puntos opcionales del proyecto, el menú hamburguesa se añadió desde el principio ya que era algo que iba a querer añadir sí o sí, aunque no se diese la opción en la práctica. El despliegue en GitHub Pages sucedió cuando me daba error el vídeo de YouTube, ya que vi en internet que el error podía estar en el hecho de que la web estaba en local, por eso decidí hacer el despliegue y probar, a ver si cuando la pagina estuviese en internet se veia (spoiler, no se solucionó así). Por último, las páginas de error 404 y 500 las hice una vez tuve terminada la práctica ya que ya estaban diseñadas y no me pareció muy complicada su creación.
+
 Este proyecto me ha permitido experimentar mucho con HTML y CSS y, si bien me ha frustrado en algunas ocasiones porque lo que yo quería no salía, me ha ayudado a aprender a ver las cosas desde otra perspectiva y a improvisar cuando las cosas se romppían. 
 
